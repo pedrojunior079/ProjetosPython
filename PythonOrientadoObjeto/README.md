@@ -6,3 +6,6 @@ Capitulo 3 Variáveis E Tipos Embutidos
 Capitulo 4 Introdução Ao PyCharm
 
 Capitulo 5 Estrutura De Dados
+
+Capitulo 8 Orientação a Objetos
+
