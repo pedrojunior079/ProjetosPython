@@ -1,0 +1,9 @@
+{% if latest_pergunta_list %}
+    <ul>
+    {% for pergunta in latest_pergunta_list %}
+        <li><a href="{% url 'pesquisa:detail' pergunta.id %}">{{ pergunta.pergunta_text }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>Nenhuma pesquisa está disponivel.</p>
+{% endif %}
