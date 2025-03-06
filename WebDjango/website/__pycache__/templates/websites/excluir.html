@@ -1,0 +1,12 @@
+<form mehod="post">
+    {% csrf_token %}
+
+     voce tem certeza que quer excluir o funcionario <b>{{funcionario.nome}}</b>?
+
+     <br><br>
+
+     <button type="button">
+        <a href="{% url 'lista_funcionarios' %}">Cancelar</a> 
+     </button>
+     <button>Excluir</button>
+</form>

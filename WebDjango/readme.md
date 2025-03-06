@@ -1,0 +1,1 @@
+# Projeto desenvolvido atraves do Ebook gratuito Python Academy Desenvolvimento Web com Python e DJango 
